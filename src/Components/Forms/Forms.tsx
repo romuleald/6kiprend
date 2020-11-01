@@ -33,7 +33,7 @@ export const SetGame = () => {
             },
             cards: {}
         }).then(() => {
-            // lol.updateId()
+            console.log(lol)
         });
         setShowForm(false);
         updatePlayerLastSeen(db, {gameId: tempId, pseudo})

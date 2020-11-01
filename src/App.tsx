@@ -10,9 +10,10 @@ const gameSetup = setGame({playersCount: 3});
 
 export const App = () => {
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [appContext, setAppContext] = useState({id: null, state: gameSetup});
     useEffect(() => {
-
+        // setAppContext
     });
     return (
         <ThemeContext.Provider value={appContext}>
