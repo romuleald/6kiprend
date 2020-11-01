@@ -1,0 +1,36 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    border-radius: 3px;
+    box-shadow: #282c34 1px 1px 1px;
+    padding: 5px;
+    border: solid 1px darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listItem {
+    list-style: none;
+}
+
+.largeNumber {
+    font-size: 4rem;
+}
+
+.itemLine {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemBack {
+    display: inline-block;
+    transform: rotate(180deg);
+}

@@ -10,4 +10,4 @@ const app = firebase.initializeApp({
     appId: "1:79453089053:web:870ef478d8dca7291d45f4"
 }, 'sixkiprend');
 
-export const db = firebase.database(app);
+export const db: firebase.database.Database = firebase.database(app);
